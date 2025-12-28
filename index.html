@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option" >
+                         <img src="library_icon.png" style="cursor: pointer;" alt="library">
+                        <a href="#" style="font-weight: 500;">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus" style="cursor: pointer;"></i>
+                        <i class="fa-solid fa-arrow-right" style="cursor: pointer;"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="boxes">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge des">Create Playlist</button>
+                    </div>
+                     <div class="boxess">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge des">Browse podcasts </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                <img src="backward_icon.png" class="rew" alt="backward">
+                <img id="forward" class="rew" class="hide" src="forward_icon.png" alt="forward">
+                </div>
+                <div class="stick-nav-options">
+                  <button class="badge navs hide des">Explore Premium</button>
+                  <div class="darkk">
+                     <button class="badge navs dark"><i class="fa-regular fa-circle-down dark" style="margin-right:5px;"></i>Install App</button>
+                  </div>
+                 
+                  <i class="fa-solid fa-user users" style="margin-right: 10px; margin-left: 10px;"></i>
+                </div>   
+            </div>
+            
+                <h2 id="rt">Top Charts: Global & India</h2>
+                <div class="cards-container">
+                    <div class="card">
+                       <div class="freds">
+                         <img src="card1img.jpeg" class="card-img" alt="Recently-played">
+                         <img src="Image 4 .png" class="play" alt="play">
+                       </div> 
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Top 50 Global features the most-streamed and trending songs...</p>
+                    </div>
+                     <div class="card">
+                       <div class="freds">
+                         <img src="top songs india.jpeg" class="card-img" alt="Recently-played">
+                         <img src="Image 4 .png" class="play" alt="play">
+                       </div> 
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Top Songs India features the most-streamed across India right now...</p>
+                    </div>
+                </div>
+
+                 <h2 id="rt">Albums featuring songs you like</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="freds">
+                         <img src="aisha banna.jpg" class="card-img" alt="Recently-played">
+                          <img src="Image 4 .png" class="play" alt="play">
+                        </div>
+                        <p class="card-title">Aisa Banna Sawarna Mubarak Tumhen</p>
+                        <p class="card-info">Anjum Hussain</p>
+                    </div>
+                    <div class="card">
+                        <div class="freds">
+                          <img src="kali - kali.jpg" class="card-img" alt="Recently-played">
+                           <img src="Image 4 .png" class="play" alt="play">
+                        </div>
+                        <p class="card-title">Kali Kali Zulfon Ke (Lo-Fi)</p>
+                        <p class="card-info">Madhur Sharma,Swapnil Tare,Nusrat Fateh Ali Khan</p>
+                    </div>
+                    <div class="card">
+                        <div class="freds"><img src="tum hi ho bandhu.jpg" class="card-img" alt="Recently-played">
+                             <img src="Image 4 .png" class="play" alt="play">
+                        </div>
+                        <p class="card-title">Tum Hi Ho Bandhu</p>
+                        <p class="card-info">Pritam,Neeraj Shridhar,Kavita Seth</p>
+                    </div>
+                    <div class="card">
+                        <div class="freds">
+                            <img src="itni si baat hai.jpg" class="card-img" alt="Recently-played">
+                             <img src="Image 4 .png" class="play" alt="play">
+                        </div>
+                        <p class="card-title">Itni Si Baat Hain (From "Azhar")</p>
+                        <p class="card-info">Arijit Singh,Antara Mitra</p>
+                    </div>
+                    <div class="card">
+                       <div class="freds">
+                         <img src="kamHn.jpg" class="card-img" alt="Recently-played">
+                          <img src="Image 4 .png" class="play" alt="play">
+                       </div>
+                        <p class="card-title">Камин (feat. JONY)</p>
+                        <p class="card-info">EMIN,JONY</p>
+                    </div>
+                     
+                </div>
+                 <h2 id="rt">Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                       <div class="freds">
+                         <img src="the nights.jpg" class="card-img" alt="Recently-played">
+                          <img src="Image 4 .png" class="play" alt="play">
+                       </div>
+                        <p class="card-title">The Nights</p>
+                        <p class="card-info">Avicii</p>
+                    </div>
+                     <div class="card">
+                       <div class="freds">
+                         <img src="tera zikr.jpg" class="card-img" alt="Recently-played">
+                         <img src="Image 4 .png" class="play" alt="play">
+                       </div>
+                        <p class="card-title">Tera Zikr</p>
+                        <p class="card-info">Darshan Raval</p>
+                    </div>
+                     <div class="card">
+                       <div class="freds">
+                         <img src="snap.jpg" class="card-img" alt="Recently-played">
+                          <img src="Image 4 .png" class="play" alt="play">
+                       </div>
+                        <p class="card-title">SNAP - Low and Slow</p>
+                        <p class="card-info">Rosa Linn</p>
+                    </div>
+                 </div>
+                      <div class="footer">
+                        <div class="line"></div>
+                      </div>
+             </div>
+
+           
+        <div class="music-player">
+            <div class="album">
+                <div><img src="teri jhuki najar.jpg" alt="song logo" class="song-icon"></div>
+                <div class="songd">
+                    <a href="#" class="song-name">Teri Jhuki Nazar - Lofi</a>
+                    <a href="#" class="singer">Kritiman Mishra,Shafqat Amanat Ali</a>
+                </div>
+                <div class="plus-song">
+                    <img src="add_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="plus-song">
+                </div>
+            </div>
+            <div class="player">
+                <div class="players-control">
+                    <img src="player_icon1.png" alt="player-icon" class="player-control-icon">
+                    <img src="player_icon2.png" alt="player-icon" class="player-control-icon">
+                    <img src="player_icon3.png" alt="player-icon" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="player_icon4.png" alt="player-icon" class="player-control-icon">
+                    <img src="player_icon5.png" alt="player-icon" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">03:02</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control">
+                    <i class="fa-solid fa-list list dd" style="font-size: 1rem;"></i>
+                    <img src="lyrics_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="lyrics" class="lyrics dd">
+                    <img src="google_home_devices_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="device" class="device dd">
+                    <div class="soundd">
+                         <i class="fa-solid fa-volume-high sound dd" style="font-size: 0.9rem;"></i>
+                    <input type="range" min="0" max="100" class="sound-range dd">
+                    </div>
+                   
+                    <img src="picture_in_picture_alt_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="miniplayer" class="miniplayer dd">
+                    <img src="expand_content_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="fullscreen" class="fullscreen dd">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
