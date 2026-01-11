@@ -17,8 +17,9 @@ playbtn.addEventListener("click" , function(){
 });
 
 song.addEventListener("ended", function () {
-    playBtn.src = "player_icon3.png";
+    playbtn.src = "player_icon3.png";
     isPlaying = false;
 });
+
 
 
